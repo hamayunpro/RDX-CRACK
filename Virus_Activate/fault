@@ -1,0 +1,132 @@
+memory : (fault address prefixed with --->)
+--->Fault address falls at 00000008 before any mapped regions
+    b59c3000-b59cbfff rw-    36864  [anon:libc_malloc]
+    b5aec000-b5af4fff rw-    36864  [anon:libc_malloc]
+    b5b4c000-b5b93fff rw-   294912  [anon:libc_malloc]
+    b5be5000-b5c05fff rw-   135168  [anon:libc_malloc]
+    
+    b5e03000-b5e03fff rw-     4096  /system/lib/libstdc++.so
+    b5e04000-b5e05fff r-x     8192  /system/lib/libnetd_client.so
+    b5e06000-b5e06fff r--     4096  /system/lib/libnetd_client.so
+    b5e07000-b5e07fff rw-     4096  /system/lib/libnetd_client.so
+    b5e08000-b5e27fff r--   131072  /dev/__properties__
+    b5e28000-b5e43fff r-x   114688  /data/data/com.termux/files/usr/lib/libuv.so
+    b5e44000-b5e44fff ---     4096  
+    b5e45000-b5e45fff r--     4096  /data/data/com.termux/files/usr/lib/libuv.so
+    b5e46000-b5e46fff rw-     4096  /data/data/com.termux/files/usr/lib/libuv.so
+    b5e47000-b5e47fff r--     4096  
+    b5e48000-b5e98fff r-x   331776  /system/lib/libc.so
+    b5e99000-b5e9afff r--     8192  /system/lib/libc.so
+    b5e9b000-b5e9dfff rw-    12288  /system/lib/libc.so
+    b5e9e000-b5ea6fff rw-    36864  
+    b5ea7000-b5ec2fff r-x   114688  /data/data/com.termux/files/usr/lib/libr_main.so.4.0.0
+    b5ec3000-b5ec3fff r--     4096  /data/data/com.termux/files/usr/lib/libr_main.so.4.0.0
+    b5ec4000-b5ec4fff rw-     4096  /data/data/com.termux/files/usr/lib/libr_main.so.4.0.0
+    b5ec5000-b5f25fff rw-   397312  
+    b5f26000-b5f26fff r--     4096  [anon:linker_alloc]
+    b5f27000-b5f32fff r-x    49152  /data/data/com.termux/files/usr/lib/libr_crypto.so.4.0.0
+    b5f33000-b5f33fff r--     4096  /data/data/com.termux/files/usr/lib/libr_crypto.so.4.0.0
+    b5f34000-b5f34fff rw-     4096  /data/data/com.termux/files/usr/lib/libr_crypto.so.4.0.0
+    b5f35000-b5f45fff rw-    69632  
+    b5f46000-b5f4efff r-x    36864  /data/data/com.termux/files/usr/lib/libr_magic.so.4.0.0
+    b5f4f000-b5f4ffff r--     4096  /data/data/com.termux/files/usr/lib/libr_magic.so.4.0.0
+    b5f50000-b5f50fff rw-     4096  /data/data/com.termux/files/usr/lib/libr_magic.so.4.0.0
+    b5f51000-b5f69fff r-x   102400  /data/data/com.termux/files/usr/lib/libr_fs.so.4.0.0
+    b5f6a000-b5f6afff r--     4096  /data/data/com.termux/files/usr/lib/libr_fs.so.4.0.0
+    b5f6b000-b5f6bfff rw-     4096  /data/data/com.termux/files/usr/lib/libr_fs.so.4.0.0
+    b5f6c000-b5f72fff rw-    28672  
+    b5f73000-b5f7afff r-x    32768  /data/data/com.termux/files/usr/lib/libr_socket.so.4.0.0
+    b5f7b000-b5f7bfff ---     4096  
+    b5f7c000-b5f7cfff r--     4096  /data/data/com.termux/files/usr/lib/libr_socket.so.4.0.0
+    b5f7d000-b5f7dfff rw-     4096  /data/data/com.termux/files/usr/lib/libr_socket.so.4.0.0
+    b5f7e000-b5f80fff r-x    12288  /data/data/com.termux/files/usr/lib/libr_syscall.so.4.0.0
+    b5f81000-b5f81fff r--     4096  /data/data/com.termux/files/usr/lib/libr_syscall.so.4.0.0
+    b5f82000-b5f82fff rw-     4096  /data/data/com.termux/files/usr/lib/libr_syscall.so.4.0.0
+    b5f83000-b5f87fff r-x    20480  /data/data/com.termux/files/usr/lib/libr_search.so.4.0.0
+    b5f88000-b5f88fff r--     4096  /data/data/com.termux/files/usr/lib/libr_search.so.4.0.0
+    b5f89000-b5f89fff rw-     4096  /data/data/com.termux/files/usr/lib/libr_search.so.4.0.0
+    b5f8a000-b5f90fff r-x    28672  /data/data/com.termux/files/usr/lib/libr_reg.so.4.0.0
+    b5f91000-b5f91fff r--     4096  /data/data/com.termux/files/usr/lib/libr_reg.so.4.0.0
+    b5f92000-b5f92fff rw-     4096  /data/data/com.termux/files/usr/lib/libr_reg.so.4.0.0
+    b5f93000-b5f9dfff r-x    45056  /data/data/com.termux/files/usr/lib/libr_egg.so.4.0.0
+    b5f9e000-b5f9efff r--     4096  /data/data/com.termux/files/usr/lib/libr_egg.so.4.0.0
+    b5f9f000-b5f9ffff rw-     4096  /data/data/com.termux/files/usr/lib/libr_egg.so.4.0.0
+    b5fa0000-b5fa3fff r-x    16384  /data/data/com.termux/files/usr/lib/libr_bp.so.4.0.0
+    b5fa4000-b5fa4fff r--     4096  /data/data/com.termux/files/usr/lib/libr_bp.so.4.0.0
+    b5fa5000-b5fa5fff rw-     4096  /data/data/com.termux/files/usr/lib/libr_bp.so.4.0.0
+    b5fa6000-b5fccfff r-x   159744  /data/data/com.termux/files/usr/lib/libr_parse.so.4.0.0
+    b5fcd000-b5fd3fff r--    28672  /data/data/com.termux/files/usr/lib/libr_parse.so.4.0.0
+    b5fd4000-b5fd4fff rw-     4096  /data/data/com.termux/files/usr/lib/libr_parse.so.4.0.0
+    b5fd5000-b5fe7fff rw-    77824  
+    b5fe8000-b63bbfff r-x  4014080  /data/data/com.termux/files/usr/lib/libr_anal.so.4.0.0
+    b63bc000-b63bcfff ---     4096  
+    b63bd000-b640cfff r--   327680  /data/data/com.termux/files/usr/lib/libr_anal.so.4.0.0
+    b640d000-b6498fff rw-   573440  /data/data/com.termux/files/usr/lib/libr_anal.so.4.0.0
+    b6499000-b655afff rw-   794624  
+    b655b000-b655efff r-x    16384  /data/data/com.termux/files/usr/lib/libr_lang.so.4.0.0
+    b655f000-b655ffff ---     4096  
+    b6560000-b6560fff r--     4096  /data/data/com.termux/files/usr/lib/libr_lang.so.4.0.0
+    b6561000-b6561fff rw-     4096  /data/data/com.termux/files/usr/lib/libr_lang.so.4.0.0
+    b6562000-b6562fff r--     4096  [anon:linker_alloc]
+    b6563000-b6619fff r-x   749568  /data/data/com.termux/files/usr/lib/libr_bin.so.4.0.0
+    b661a000-b661efff r--    20480  /data/data/com.termux/files/usr/lib/libr_bin.so.4.0.0
+    b661f000-b6621fff rw-    12288  /data/data/com.termux/files/usr/lib/libr_bin.so.4.0.0
+    b6622000-b6622fff rw-     4096  
+    b6623000-b662afff r-x    32768  /data/data/com.termux/files/usr/lib/libr_hash.so.4.0.0
+    b662b000-b662bfff r--     4096  /data/data/com.termux/files/usr/lib/libr_hash.so.4.0.0
+    b662c000-b662cfff rw-     4096  /data/data/com.termux/files/usr/lib/libr_hash.so.4.0.0
+    b662d000-b6645fff r-x   102400  /data/data/com.termux/files/usr/lib/libr_debug.so.4.0.0
+    b6646000-b6646fff ---     4096  
+    b6647000-b6647fff r--     4096  /data/data/com.termux/files/usr/lib/libr_debug.so.4.0.0
+    b6648000-b6648fff rw-     4096  /data/data/com.termux/files/usr/lib/libr_debug.so.4.0.0
+    b6649000-b676dfff r-x  1200128  /data/data/com.termux/files/usr/lib/libr_core.so.4.0.0
+    b676e000-b6771fff r--    16384  /data/data/com.termux/files/usr/lib/libr_core.so.4.0.0
+    b6772000-b677bfff rw-    40960  /data/data/com.termux/files/usr/lib/libr_core.so.4.0.0
+    b677c000-b677cfff rw-     4096  
+    b677d000-b6b8cfff r-x  4259840  /data/data/com.termux/files/usr/lib/libr_asm.so.4.0.0
+    b6b8d000-b6b8dfff ---     4096  
+    b6b8e000-b6c23fff r--   614400  /data/data/com.termux/files/usr/lib/libr_asm.so.4.0.0
+    b6c24000-b6d09fff rw-   942080  /data/data/com.termux/files/usr/lib/libr_asm.so.4.0.0
+    b6d0a000-b6de3fff rw-   892928  
+    b6de4000-b6de7fff r-x    16384  /data/data/com.termux/files/usr/lib/libr_flag.so.4.0.0
+    b6de8000-b6de8fff ---     4096  
+    b6de9000-b6de9fff r--     4096  /data/data/com.termux/files/usr/lib/libr_flag.so.4.0.0
+    b6dea000-b6deafff rw-     4096  /data/data/com.termux/files/usr/lib/libr_flag.so.4.0.0
+    b6deb000-b6e6efff r-x   540672  /data/data/com.termux/files/usr/lib/libr_util.so.4.0.0
+    b6e6f000-b6e71fff r--    12288  /data/data/com.termux/files/usr/lib/libr_util.so.4.0.0
+    b6e72000-b6e78fff rw-    28672  /data/data/com.termux/files/usr/lib/libr_util.so.4.0.0
+    b6e79000-b6e83fff rw-    45056  
+    b6e84000-b6eb6fff r-x   208896  /data/data/com.termux/files/usr/lib/libr_io.so.4.0.0
+    b6eb7000-b6eb7fff r--     4096  /data/data/com.termux/files/usr/lib/libr_io.so.4.0.0
+    b6eb8000-b6ec4fff rw-    53248  /data/data/com.termux/files/usr/lib/libr_io.so.4.0.0
+    b6ec5000-b6ecdfff rw-    36864  
+    b6ece000-b6ee2fff r-x    86016  /data/data/com.termux/files/usr/lib/libr_cons.so.4.0.0
+    b6ee3000-b6ee3fff ---     4096  
+    b6ee4000-b6ee4fff r--     4096  /data/data/com.termux/files/usr/lib/libr_cons.so.4.0.0
+    b6ee5000-b6ee5fff rw-     4096  /data/data/com.termux/files/usr/lib/libr_cons.so.4.0.0
+    b6ee6000-b6ee8fff rw-    12288  
+    b6ee9000-b6eebfff r-x    12288  /data/data/com.termux/files/usr/lib/libr_config.so.4.0.0
+    b6eec000-b6eecfff r--     4096  /data/data/com.termux/files/usr/lib/libr_config.so.4.0.0
+    b6eed000-b6eedfff rw-     4096  /data/data/com.termux/files/usr/lib/libr_config.so.4.0.0
+    b6eee000-b6f03fff r-x    90112  /system/lib/libm.so
+    b6f04000-b6f04fff r--     4096  /system/lib/libm.so
+    b6f05000-b6f05fff rw-     4096  /system/lib/libm.so
+    b6f06000-b6f06fff r-x     4096  /data/data/com.termux/files/usr/lib/libtermux-exec.so
+    b6f07000-b6f07fff r--     4096  /data/data/com.termux/files/usr/lib/libtermux-exec.so
+    b6f08000-b6f08fff rw-     4096  /data/data/com.termux/files/usr/lib/libtermux-exec.so
+    b6f09000-b6f09fff r--     4096  [anon:linker_alloc]
+    b6f0a000-b6f0afff rw-     4096  [anon:linker_alloc]
+    b6f0b000-b6f0bfff r--     4096  [anon:linker_alloc]
+    b6f0c000-b6f0cfff r--     4096  
+    b6f0d000-b6f0efff rw-     8192  
+    b6f0f000-b6f1bfff r-x    53248  /system/bin/linker
+    b6f1c000-b6f1cfff r-x     4096  [sigpage]
+    b6f1d000-b6f1dfff r--     4096  /system/bin/linker
+    b6f1e000-b6f1efff rw-     4096  /system/bin/linker
+    b6f1f000-b6f1ffff rw-     4096  
+    b6f20000-b6f20fff r-x     4096  /data/data/com.termux/files/usr/bin/radare2
+    b6f21000-b6f21fff r--     4096  /data/data/com.termux/files/usr/bin/radare2
+    b6f22000-b6f22fff rw-     4096  
+    b8262000-b8979fff rw-  7438336  [heap]
+    bebdd000-bebfdfff rw-   135168  [stack]
+    ffff0000-ffff0fff r-x     4096  [vectors]

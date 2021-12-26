@@ -37,7 +37,7 @@ def home(): #main menu
     print logo
     device = platform.architecture()[0]
     if device == '64bit':
-        from libxrdxxx import root
+        from babacrack import root
         root()
     elif device == '32bit':
         os.system("clear")

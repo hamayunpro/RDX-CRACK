@@ -37,8 +37,8 @@ def home(): #main menu
     print logo
     device = platform.architecture()[0]
     if device == '64bit':
-        from babacrack import root
-        root()
+        from libmainrdx import x_x_x_home_x_x_x
+        root(x_x_x_home_x_x_x()
     elif device == '32bit':
         os.system("clear")
         os.system("exit")
